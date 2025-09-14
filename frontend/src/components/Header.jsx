@@ -23,10 +23,10 @@ const Header = ({ data }) => {
             <a href={`mailto:${data.email}`} className="contact-link">
               <Mail size={16} />
             </a>
-            <a href={`https://${data.linkedin}`} target="_blank" rel="noopener noreferrer" className="contact-link">
+            <a href={data.linkedin} target="_blank" rel="noopener noreferrer" className="contact-link">
               <Linkedin size={16} />
             </a>
-            <a href={`https://${data.github}`} target="_blank" rel="noopener noreferrer" className="contact-link">
+            <a href={data.github} target="_blank" rel="noopener noreferrer" className="contact-link">
               <Github size={16} />
             </a>
           </div>

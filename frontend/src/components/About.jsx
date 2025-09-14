@@ -1,0 +1,45 @@
+import React from 'react';
+
+const About = ({ data }) => {
+  return (
+    <section id="about" className="about-section">
+      <div className="container">
+        <div className="section-header">
+          <h2 className="section-title">About Me</h2>
+          <div className="section-divider"></div>
+        </div>
+        
+        <div className="about-content">
+          <div className="about-text">
+            <p className="about-description">
+              I'm a passionate AI Engineer and Full Stack Developer currently pursuing my Master's in Artificial Intelligence at Boston University. 
+              With a strong foundation in Chemical Engineering and extensive experience in software development, I bridge the gap between 
+              theoretical knowledge and practical implementation.
+            </p>
+            <p className="about-description">
+              My journey spans from optimizing chemical processes to building intelligent systems, always driven by curiosity and 
+              a desire to solve complex problems through innovative technology solutions.
+            </p>
+            
+            <div className="about-highlights">
+              <div className="highlight-item">
+                <h3 className="highlight-title">5+</h3>
+                <p className="highlight-desc">Projects Completed</p>
+              </div>
+              <div className="highlight-item">
+                <h3 className="highlight-title">3</h3>
+                <p className="highlight-desc">Internships</p>
+              </div>
+              <div className="highlight-item">
+                <h3 className="highlight-title">8.56</h3>
+                <p className="highlight-desc">CGPA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default About;

@@ -24,11 +24,11 @@ const Footer = ({ data }) => {
                   <Mail size={18} />
                   <span>{data.email}</span>
                 </a>
-                <a href={`https://${data.linkedin}`} target="_blank" rel="noopener noreferrer" className="footer-link">
+                <a href={data.linkedin} target="_blank" rel="noopener noreferrer" className="footer-link">
                   <Linkedin size={18} />
                   <span>LinkedIn</span>
                 </a>
-                <a href={`https://${data.github}`} target="_blank" rel="noopener noreferrer" className="footer-link">
+                <a href={data.github} target="_blank" rel="noopener noreferrer" className="footer-link">
                   <Github size={18} />
                   <span>GitHub</span>
                 </a>

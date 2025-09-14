@@ -3,7 +3,7 @@ import { ArrowRight, Download } from 'lucide-react';
 
 const Hero = ({ data }) => {
   const handleDownloadResume = () => {
-    // Generate and download resume
+    // Generate and download comprehensive resume
     const resumeContent = `
 SIDDHANTH KALYANARAMAN
 AI Engineer
@@ -12,55 +12,67 @@ LinkedIn: https://www.linkedin.com/in/siddhanth-kalyanaraman-a47bb326a/
 GitHub: https://github.com/testcaseoptimizer
 
 EDUCATION
-• Boston University - Master's in Artificial Intelligence (2025-2027)
-• BITS Pilani Hyderabad - B.E. Chemical Engineering, Minor in Computational Intelligence (2021-2025) - CGPA: 8.56
+• Boston University - Master's in Artificial Intelligence (Graduating 2027)
+• BITS Pilani Hyderabad (India) - B.E. Chemical Engineering & Minor in Computational Intelligence (Graduated 2025) - CGPA: 8.56
 
-EXPERIENCE
-• Product Engineer Intern - Mbb Labs Private Ltd. (Jul 2024 - Dec 2024)
-  - Developed 80+ JUnit tests improving SpringBoot application accuracy (80-90%)
-  - Designed UI page for enhanced customer service experience
-  - Built SpringBoot application for improved service efficiency
+INTERNSHIP EXPERIENCE
 
-• IT Intern - Qualitykiosk Technologies (Apr 2023 - Jun 2023)
-  - Evaluated application performance using testing services
-  - Configured Apache Tomcat server for optimal performance
-  - Developed 40+ JSP and Servlet classes in Eclipse IDE
-  - Improved MySQL database performance
+Product Engineer Intern - Mbb Labs Private Ltd., Bengaluru (India) | Jul 2024 - Dec 2024
+• Developed 80+ JUnit testing programs to improve Spring Boot application accuracy (80-90%)
+• Designed a UI page using inbuilt company software to enhance bank customer service, significantly improving user experience
+• Built a Spring Boot application for improved customer service efficiency and user satisfaction
 
-• Chemical Intern - Apcotex Industries (May 2024 - Jun 2024)
-  - Applied chemical engineering concepts in latex and rubber manufacturing
-  - Analyzed unit operations and process optimization
-  - Gained experience in polymerization reactions
+IT Intern - Qualitykiosk Technologies, Navi Mumbai (India) | Apr 2023 - Jun 2023
+• Evaluated application performance using testing services, analyzing metrics and improving understanding
+• Configured Apache Tomcat server, improving application performance
+• Developed 40+ JSP and Servlet classes in Eclipse IDE and implemented MySQL database changes for improved backend operations
+
+Chemical Intern - Apcotex Industries, Tajola (India) | May 2024 - Jun 2024
+• Applied chemical engineering concepts in a latex and rubber manufacturing plant, enhancing understanding of industrial processes
+• Analyzed the use of valves, reactors, distillation towers, storage tanks, and P&ID diagrams to improve operational knowledge
+• Gained experience in unit operations and polymerization reactions, contributing to overall process efficiency
 
 PROJECTS
-• Test Case Optimizer (Apr 2023 - Jun 2023)
-  - Automated test case creation using Selenium WebDriver, GitHub Copilot
-  
-• Economic Trend Analysis (Oct 2023)
-  - ML models comparison for customer economic stability classification
-  
-• Chatbot with Machine Learning (Sep 2023)
-  - Intelligent chatbot using TensorFlow sequential model
-  
-• Social Media Platform (Apr 2024)
-  - Backend platform development using SpringBoot, Java, Postman API
-  
-• Machine Learning in Graphene Exfoliation Process (Feb 2024 - Apr 2024)
-  - ML optimization for graphene production using kNN, RFR, ANNs, SHAP values
+
+Test Case Optimizer | Apr 2023 - Jun 2023
+• Automated web application testing for improved performance and accuracy using Selenium WebDriver and Github Copilot
+• Tools/Technologies: Tomcat 9 server, MySQL Database, Eclipse, JSP, Servlet
+
+Economic Trend Analysis | Oct 2023
+• Classified customer economic stability using machine learning models (Naive Bayes, Artificial Neural Networks, k-Nearest Neighbor)
+• Compared model performances to determine optimal classification approach
+
+Chatbot with Machine Learning | Sep 2023
+• Created a chatbot using a Sequential model in TensorFlow with JSON script
+• Tested chatbot performance and optimized responses
+
+Social Media Platform | Apr 2024
+• Developed a backend platform (similar to X) using Spring Boot, Java, and Postman API
+• Implemented core social media functionalities
+
+Machine Learning in Graphene Exfoliation Process | Feb 2024 - Apr 2024
+• Used machine learning (k-Nearest Neighbors, Random Forest Regression, Artificial Neural Networks with SHAP values) to optimize graphene production, balancing rate and quality
+• Applied advanced ML techniques for materials science optimization
+
+POSITIONS OF RESPONSIBILITY
+
+Design Head - Association of Chemical Engineers (ACE), BITS Hyderabad | Aug 2023 - May 2024
+• Designed event posters and handled event planning
+• Led design initiatives for various departmental events and activities
+
+Conference Host - NOVEL MATERIALS & TECHNOLOGIES FOR ENERGY AND ENVIRONMENTAL APPLICATIONS (NMTEEA) CONFERENCE, BITS Hyderabad | Mar 2024
+• Compered a conference session for academic and industry professionals
+• Facilitated discussions on cutting-edge materials research
 
 TECHNICAL SKILLS
-Languages: MATLAB, Python, Java, C++, SQL
-Frameworks: JUnit, TensorFlow, SpringBoot
-Tools: Visual Studio Code, Eclipse IDE, Google Colaboratory, MySQL, Apache Tomcat
-Specialties: Machine Learning, Artificial Intelligence, Software Testing, Test Automation
-
-LEADERSHIP & RESPONSIBILITIES
-• Design Head - Association of Chemical Engineers (ACE), BITS Hyderabad (Aug 2023 - May 2024)
-• Conference Host - NMTEEA Conference, BITS Hyderabad (Mar 2024)
+Languages: MATLAB, SQL (Beginner), Python, Java, C++, Machine Learning
+Frameworks: JUnit, TensorFlow (Beginner), Spring Boot
+Developer Tools: Visual Studio Code, Eclipse IDE, Google Colaboratory, MySQL, Apache Tomcat
+Specialties: Software Testing, Test Automation, Artificial Intelligence, Machine Learning, Backend Development
 
 CERTIFICATIONS
-• Selenium WebDriver in Java - Udemy (2023)
-• Deep Learning - Udemy (2023)
+• Selenium WebDriver in Java - Udemy
+• Deep Learning - Udemy
     `;
     
     const blob = new Blob([resumeContent], { type: 'text/plain' });
@@ -73,7 +85,7 @@ CERTIFICATIONS
     document.body.removeChild(a);
     window.URL.revokeObjectURL(url);
     
-    console.log('Resume downloaded successfully!');
+    console.log('Comprehensive resume downloaded successfully!');
   };
 
   const handleContactMe = () => {

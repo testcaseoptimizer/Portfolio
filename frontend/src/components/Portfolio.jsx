@@ -19,7 +19,7 @@ const Portfolio = () => {
     // Simulate API call with mock data
     const fetchData = async () => {
       try {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        await new Promise(resolve => setTimeout(resolve, 100));
         setData(portfolioData);
         setLoading(false);
       } catch (error) {

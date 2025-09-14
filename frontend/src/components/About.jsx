@@ -23,7 +23,7 @@ const About = ({ data }) => {
             
             <div className="about-highlights">
               <div className="highlight-item">
-                <h3 className="highlight-title">5+</h3>
+                <h3 className="highlight-title">5</h3>
                 <p className="highlight-desc">Projects Completed</p>
               </div>
               <div className="highlight-item">

@@ -2,12 +2,12 @@
 export const portfolioData = {
   personal: {
     name: "Siddhanth Kalyanaraman",
-    title: "AI Engineer & Full Stack Developer",
+    title: "AI Engineer",
     tagline: "Transforming ideas into intelligent solutions through AI and engineering excellence",
     phone: "+19346428076",
-    email: "siddhanth.k@example.com", // Mock email as not provided in resume
-    linkedin: "linkedin.com/in/siddhanth-kalyanaraman",
-    github: "github.com/siddhanth-k",
+    email: "siddhanthkalyanaraman@gmail.com",
+    linkedin: "https://www.linkedin.com/in/siddhanth-kalyanaraman-a47bb326a/",
+    github: "https://github.com/testcaseoptimizer",
     image: "https://customer-assets.emergentagent.com/job_creative-showcase-118/artifacts/awvp7dvb_WhatsApp%20Image%202025-09-14%20at%205.05.23%20PM.jpeg"
   },
   

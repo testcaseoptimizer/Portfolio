@@ -13,12 +13,12 @@ const About = ({ data }) => {
           <div className="about-text">
             <p className="about-description">
               I'm a passionate AI Engineer currently pursuing my Master's in Artificial Intelligence at Boston University. 
-              With a strong foundation in Chemical Engineering and extensive experience in software testing, I bridge the gap between 
+              With extensive experience in software testing and a background in engineering, I bridge the gap between 
               theoretical knowledge and practical implementation.
             </p>
             <p className="about-description">
-              My journey spans from optimizing chemical processes to building intelligent systems and ensuring software quality, always driven by curiosity and 
-              a desire to solve complex problems through innovative technology solutions.
+              My journey focuses on building intelligent systems and ensuring software quality through rigorous testing methodologies, always driven by curiosity and 
+              a desire to solve complex problems through innovative AI and technology solutions.
             </p>
             
             <div className="about-highlights">
